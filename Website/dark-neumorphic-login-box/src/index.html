@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Dark Neumorphic Login Box</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css"  />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="light-theme dark-theme">
+    <div class="container">
+        <div class="brand-container">
+            <a class="navbar-brand flex-shrink-0" href="#"><img src="https://yudiz.com/codepen/nft-store/logo-icon.svg" alt="logo-image" class="img-fluid"/>
+            <h1 class="brand-name">Art Touch</h1>
+        </div>
+        <div class="login-container">
+            <div class="login-header">Login</div>
+            <div class="input-container">
+                <label class="input-label" for="username"><i class="fas fa-user"></i> Username</label>
+                <input class="input-field" type="text" id="username" placeholder="Enter your username">
+            </div>
+            <div class="input-container">
+                <label class="input-label" for="password"><i class="fas fa-lock"></i> Password</label>
+                <input class="input-field" type="password" id="password" placeholder="Enter your password">
+            </div>
+            <button onclick="validateLogin()" class="login-button">Login</button> 
+        </div>
+    </div>
+
+    <!-- Add your scripts here -->
+    <script>
+        function validateLogin() {
+            // Get input values
+            var username = document.getElementById('username').value;
+            var password = document.getElementById('password').value;
+
+            // Simple validation
+            if (username === 'roopikaindukumarkuppast@gmail.com' && password === '123456') {
+                // Redirect to the dashboard page if credentials are valid
+                window.location.href = 'file:///C:/Users/roopi/OneDrive/Desktop/Website/nft-store-dashboard/dist/index.html';
+            } else {
+                // Show an error message or perform other actions for invalid credentials
+                alert('Invalid username or password. Please try again.');
+            }
+        }
+    </script>
+</body>
+<!-- <body class="light-theme dark-theme">
+    <div class="container">
+      <header>Signup</header>
+      <form action="https://www.codinglabweb.com/">
+        <div class="field email-field">
+          <div class="input-field">
+            <input type="email" placeholder="Enter your email" class="email" />
+          </div>
+          <span class="error email-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Please enter a valid email</p>
+          </span>
+        </div>
+        <div class="field create-password">
+          <div class="input-field">
+            <input
+              type="password"
+              placeholder="Create password"
+              class="password"
+            />
+            <i class="bx bx-hide show-hide"></i>
+          </div>
+          <span class="error password-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">
+              Please enter atleast 8 charatcer with number, symbol, small and
+              capital letter.
+            </p>
+          </span>
+        </div>
+        <div class="field confirm-password">
+          <div class="input-field">
+            <input
+              type="password"
+              placeholder="Confirm password"
+              class="cPassword"
+            />
+            <i class="bx bx-hide show-hide"></i>
+          </div>
+          <span class="error cPassword-error">
+            <i class="bx bx-error-circle error-icon"></i>
+            <p class="error-text">Password don't match</p>
+          </span>
+        </div>
+        <div class="input-field button">
+          <input  type="submit" value="Submit Now"/>
+          <button onclick="location.href = 'file:///C:/Users/roopi/OneDrive/Desktop/Website/nft-store-dashboard/dist/index.html';" class="login-button"> -> </button>
+        </div>
+      </form>
+    </div>
+  </body> -->
+</html>
+<!-- partial -->
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js'></script>
+<script src='"C:\Users\roopi\OneDrive\Desktop\Website\dark-neumorphic-login-box\src\script.js"'></script><script  src="./script.js"></script>
+
+  
+</body>
+</html>

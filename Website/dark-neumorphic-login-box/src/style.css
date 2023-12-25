@@ -1,0 +1,92 @@
+/* styles.css */
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #121212; /* Dark background color */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.brand-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.brand-name {
+    font-size: 28px;
+    color: #fff; /* White text color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); /* Add a subtle text shadow */
+    margin: 0;
+}
+
+.login-container {
+    background: #121212; /* Dark background color */
+    border-radius: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2),
+                -5px -5px 15px rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+    color: #fff; /* White text color */
+}
+
+.login-header {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.input-label {
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 5px;
+    color: #bbb; /* Light gray text color */
+}
+
+.input-label i {
+    margin-right: 8px; /* Add spacing between the icon and label text */
+    font-size: 16px; /* Adjust the icon size */
+    color: #555; /* Icon color */
+}
+
+.input-field {
+    padding: 10px;
+    border: 1px solid #444; /* Darker border color */
+    border-radius: 5px;
+    font-size: 16px;
+    background: #121212; /* Dark background color */
+    color: #fff; /* White text color */
+    box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.2),
+                inset -3px -3px 8px rgba(255, 255, 255, 0.1);
+}
+
+.login-button {
+    background: #121212; /* Dark background color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2),
+                -5px -5px 15px rgba(255, 255, 255, 0.1);
+}
+
+.login-button:hover {
+    background: #1e1e1e; /* Slightly darker background color on hover */
+}
